@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio_Ranjith</title>
+
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="https://kit.fontawesome.com/0d9cb1d813.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            
+            <div class="container">
+
+                <nav>
+                    <a href="#" class="logo"><span>Portfolio</span></a>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">AboutMe</a></li>
+                        <li><a href="#services">Project</a></li>
+                        <li><a href="#portfolio">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <hr style="margin-top: 20px;">
+            </div>
+        </div>
+        <div id="home">
+            <div  class="container">
+                <div class="header-text">
+                    <p>Hi there,</p>
+                    <h1>I'm <span>Ranjith</span><br>And I'm an <span>Electronics</span> <br> and <span>Communication</span> Engineer</h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/coffe.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm an Aspiring Engineering graduate with fundamental knowledge of development and testing. Seeking a role in a progressive organization in a highly motivating and a challenging environment that provides the best opportunity to grow and utilize my potential to the fullest to achieve the organization's goal and also my personal goals.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('personal-skills')">Personal Skills</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>B.E - ECE (2020-2024)</span><br>Bannari Amman Institute of Technology<br>CGPA : 8.86</li>
+                                <li><span>HSC (2019-2020)</span><br>Saratha Matric Hr Sec School<br>Percentage : 81.5</li>
+                                <li><span>SSLC (2017-2018)</span><br>Little Flower Matric Hr Sec School<br>Percentage : 90.4</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="personal-skills">
+                            <ul>
+                                <li>Team Work</li>
+                                <li>Optimist</li>
+                                <li>Adaptability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------services-------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Project</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-duotone fa-car-burst"></i>
+                        <h2>IoT Based Accident Detection and Emergency SOS Device</h2>
+                        <p>This system mainly focuses on detecting accidents with different test cases and actuates the corresponding system based on the results from the test cases.</p>
+                        <a href="#">Learn more!</a>
+                    </div>
+                    <div>
+                        <i class="fa-duotone fa-truck-fast"></i>
+                        <h2>Early Detection and Alerting Device fpr Preventing Toppling of Trucks</h2>
+                        <p>Toppling occurs due to overspeed, turning radius of the road and overweight of the vehicle. Pre-Detecting immediate alert to the driver.</p>
+                        <a href="#">Learn more!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------portfolio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Skills</h1>
+            </div>
+            <div class="tab-title1">
+                <h2 class="tab-link1 active-link" onclick="opentab1('technical-skills')">Technical Skills</h2>
+                <h2 class="tab-link1" onclick="opentab1('tools')">Tools</h2>
+                <h2 class="tab-link1" onclick="opentab1('areas-of-interest')">Areas of Interest</h2>
+
+            </div>
+            <div class="tab-contents1 active-tab" id="technical-skills">
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>SQL</li>
+                    <li>HTML and C</span>SS</li>
+                </ul>
+            </div>
+            <div class="tab-contents1" id="tools">
+                <ul>
+                    <li>Platforms : Canva</li>
+                    <li>MS Word, MS Excel</li>
+                    <li>OS : Window</li>
+                    <li>Visual Studio</li>
+                </ul>
+            </div>
+            <div class="tab-contents1" id="areas-of-interest">
+                <ul>
+                    <li>Coding</li>
+                    <li>Front End Development</li>
+                    <li>Photography</li>
+                </ul>
+            </div>
+        </div>
+        <!---contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i>ranjithp.ec20@bitsathy.ac.in</p>
+                        <p><i class="fa-solid fa-phone"></i>6369942026</p>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/_ranjith_official_007_?igshid=YmJhNjkzNzY=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/Ranjith1308" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ranjith-p-1056a8207" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div> 
+                        <a href="images/resume.pdf" target="_blank" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <footer class="footer">
+                <div class="footer-text">
+                  <p>Copyright &copy; 2023 by Ranjith | All Rights Reserved.</p>
+                </div>
+                <div class="footer-iconTop">
+                  <a href="#header"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
+                </div>
+              </footer> -->
+            <div class="copyright">
+                <p>Copyright &copy; 2023 by Ranjith<i class="fa-solid fa-heart"></i></p>
+            </div>
+            <!-- <div class="foot-icon">
+                <a href="#header"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+            </div> -->
+        </div>
+        
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }  
+        </script>
+
+        <script>
+            var tablinks1 = document.getElementsByClassName("tab-link1");
+            var tabcontents1 = document.getElementsByClassName("tab-contents1");
+
+            function opentab1(tabname1){
+                for(tablink1 of tablinks1){
+                    tablink1.classList.remove("active-link");
+                }
+                for(tabcontent1 of tabcontents1){
+                    tabcontent1.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname1).classList.add("active-tab");
+            }
+        </script>
+    </body>
+</html>
